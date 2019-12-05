@@ -3,7 +3,7 @@ import { FaFile, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Contacts = () => {
     return(
-        <div>
+        <div className='contacts'>
             <a 
                 href='https://github.com/mrsteveson'
                 target='_blank'

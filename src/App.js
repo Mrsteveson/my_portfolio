@@ -3,15 +3,18 @@ import { withRouter } from 'react-router';
 // import { Route } from 'react-router-dom';
 import Header from './components/Header.js';
 import About from './components/About.js';
-// import Projects from './components/Projects.js';
+import Skills from './components/Skills.js';
+import Projects from './components/Projects.js';
 import Footer from './components/Footer.js';
+import './app.scss'
 
 function App() {
   return (
-    <div>
+    <div className = 'app'>
       <Header />
       <About />
-      {/* <Projects /> */}
+      <Skills />
+      <Projects />
       <Footer />
     </div>
   );
