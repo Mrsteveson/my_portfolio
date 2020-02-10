@@ -5,7 +5,7 @@ import Contacts from './Contacts.js';
 
 const Header = () => {
     return(
-        <div>
+        <div className='header'>
             <h1>Patrick Taylor Steveson</h1>
             <h3>Full-Stack Developer</h3>
             <Contacts/>
